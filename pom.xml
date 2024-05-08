@@ -77,5 +77,6 @@
 			</plugin>
 
 		</plugins>
+		<finalName>smartsalesmanager-image</finalName>
 	</build>
 </project>
