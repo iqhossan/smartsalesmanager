@@ -2,14 +2,16 @@ package com.smart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
+@ActiveProfiles(value = "dev")
 class SmartsalesmanagerApplicationTests {
 
 	
 	 @Test 
 	 void contextLoads() { 
-		 System.out.println("hello");
+		 
 	 }
 
 }
